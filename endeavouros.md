@@ -29,3 +29,15 @@ pacmd list-sinks #检查 PulseAudio 是否已经正确安装
 ~~~
 sudo pacman -S python-setuptools    #在 Arch Linux 上，可以使用该命令安装
 ~~~
+
+## 持久性改变字体
+~~~
+vim /etc/vconsole.conf
+FONT=late2-16     #/etc/vconsole.conf 的 FONT 变量可以用来在启动时设置字体, 对于所有的终端都具有持久性作用。
+~~~
+
+
+
+
+
+
