@@ -24,3 +24,8 @@ pacmd list-sinks #检查 PulseAudio 是否已经正确安装
 注释  /etc/pulse/default.pa中的
 # load-module module-suspend-on-idle
 ~~~
+
+## 安装setuptools
+~~~
+sudo pacman -S python-setuptools    #在 Arch Linux 上，可以使用该命令安装
+~~~
