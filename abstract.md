@@ -1,3 +1,5 @@
+## 提取文本信息使用的awk，grep和sed指令
+
 ~~~
 awk '{print $1}' input.txt > output.txt     #提取第一列信息，并重新定向
 grep -o -E 'NP_|XP_[^|]+' file.txt          #匹配NP_或XP_开头的信息，二抓一
