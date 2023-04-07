@@ -83,15 +83,15 @@ pwd
 
 ## 切换yaml文件的办法
 ~~~
-wget -c https://988d0c18.ghelper.me/clash/3ef4c4f4a26f5fcf0f215378ea203d10
+wget -c https://988d0c18.ghelper.me/clash/3ef4c4f4a26f5fcf0f215378ea203d10   #使用 wget 下载 clash 的配置文件，该文件名为 3ef4c4f4a26f5fcf0f215378ea203d10。
   219  ll
-  220  mv 3ef4c4f4a26f5fcf0f215378ea203d10 ghelper.yaml
+  220  mv 3ef4c4f4a26f5fcf0f215378ea203d10 ghelper.yaml    #将 3ef4c4f4a26f5fcf0f215378ea203d10 文件名修改为 ghelper.yaml。
   221  ll
-  222  mv config.yaml t.yaml
-  223  mv ghelper.yaml config.yaml
-  224  vim config.yaml
-  225  yay -S kate
-  226* clash
+  222  mv config.yaml t.yaml     #将当前目录下的 config.yaml 文件名修改为 t.yaml
+  223  mv ghelper.yaml config.yaml    #将下载的 ghelper.yaml 文件名修改为 config.yaml，替换原来的配置文件。
+  224  vim config.yaml     #使用 vim 编辑新的 config.yaml 文件进行进一步的配置。
+  225  yay -S kate      #安装 kate 编辑器，方便进行 config.yaml 文件的编辑。
+  226* clash           #运行clash
 ~~~
 
 
