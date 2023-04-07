@@ -81,7 +81,18 @@ cd ~
 pwd
 ~~~
 
-
+## 切换yaml文件的办法
+~~~
+wget -c https://988d0c18.ghelper.me/clash/3ef4c4f4a26f5fcf0f215378ea203d10
+  219  ll
+  220  mv 3ef4c4f4a26f5fcf0f215378ea203d10 ghelper.yaml
+  221  ll
+  222  mv config.yaml t.yaml
+  223  mv ghelper.yaml config.yaml
+  224  vim config.yaml
+  225  yay -S kate
+  226* clash
+~~~
 
 
 
