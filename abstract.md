@@ -15,7 +15,7 @@ ssconvert input.txt output.xlsx              #将txt转换成xlsx格式
 ~~~
 while read ref_id; do
     xml=$(curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=$ref_id&rettype=fasta&retmode=xml")  #curl命令从NCBI的Entrez数据库中获取一个蛋白质序列的FASTA格式和XML格式
-    name=$(echo "$xml" | sed -n '/<GBSeq_definition>/,/<\/GBSeq_definition>/p' | sed 's/<GBSeq_definition>\(.*\)<\/GBSeq_definition>/\1/')   #在从NCBI Entrez获取到的XML格式数据中，提取出GBSeq_definition节点的文本内容，即蛋白质的名称，并将其赋值给变量name.
+    name=$(echo "$xml" | sed -n '/<GBSeq_definition>/,/<\/GBSeq_definition>/p' | sed 's/<GBSeq_definition>\(.*\)<\/GBSeq_definition>/\1/')   #在从NCBI Entrez获取到的XML格式数据中，提取出GBSeq_definition节点的文本内容，即蛋白质的名称，并将其赋值给变量name。其中，/<GBSeq_definition>/表示表示查找包含字符串<GBSeq_definition>的文本行
     echo "$name" >> protein_names.txt
 done < ref_ids.txt
 ~~~
