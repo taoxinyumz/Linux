@@ -94,5 +94,17 @@ wget -c https://988d0c18.ghelper.me/clash/3ef4c4f4a26f5fcf0f215378ea203d10   #�
   226* clash           #运行clash
 ~~~
 
+## config中clash的配置文件
+~~~
+port: 7890                           #Clash HTTP 代理监听的端口
+socks-port: 7891                     #Clash Socks5 代理监听的端口   
+redir-port: 7892                     #Clash HTTP 重定向监听的端口
+mixed-port: 7893                     #Clash 混合代理监听的端口
+allow-lan: false                     #是否允许代理局域网内的连接
+mode: rule                           #Clash 代理的工作模式，这里是规则模式
+log-level: info                      #Clash 的日志级别
+external-controller: '0.0.0.0:9090'  #Clash 控制面板监听的地址和端口
+secret: ''                           #Clash 的密码
+~~~
 
 
