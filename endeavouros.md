@@ -107,4 +107,18 @@ external-controller: '0.0.0.0:9090'  #Clash 控制面板监听的地址和端口
 secret: ''                           #Clash 的密码
 ~~~
 
+## 如何手动更改clash文件
++ 获取yaml文件，并将其添加到主目录下的config文件中
++ 需要改变文件的名称，config.yaml
++ 打开终端，输入代码
+~~~
+nohup clash &    #表示后台运行clash
+~~~
++ 打开浏览器中的clash即可设置成功
+
+
+
+
+
+
 
