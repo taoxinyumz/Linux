@@ -116,6 +116,23 @@ nohup clash &    #表示后台运行clash
 ~~~
 + 打开浏览器中的clash即可设置成功
 
+## 下载一些软件的指令
+~~~
+yay -S shutter #截图软件
+yay -S flameshot #截图软件
+yay -S microsoft-edge-dev-bin #下载bin浏览器
+~~~
+
+
+
+
+
+
+
+
+
+
+
 
 
 
