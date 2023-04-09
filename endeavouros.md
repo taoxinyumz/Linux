@@ -121,6 +121,7 @@ nohup clash &    #表示后台运行clash
 yay -S shutter #截图软件
 yay -S flameshot #截图软件
 yay -S microsoft-edge-dev-bin #下载bin浏览器
+sudo pacman -S okular  #下载okular
 ~~~
 
 
