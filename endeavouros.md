@@ -122,6 +122,7 @@ yay -S shutter #截图软件
 yay -S flameshot #截图软件
 yay -S microsoft-edge-dev-bin #下载bin浏览器
 sudo pacman -S okular  #下载okular
+yay -S libreoffice-fresh-zh-cn  #下载office的指令
 ~~~
 
 
