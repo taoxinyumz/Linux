@@ -25,7 +25,8 @@ wget wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.0.2/sratoolkit.3.0.2-ubun
 tar -xzf name      #转到该目录下，并进行解压
 cd dirtory         #转到解压后的目录
 PATH=/data/home/taoxy/bioapp//bin:$PATH   #添加到环境变量中去
-source ~/.bashrc        
+source ~/.bashrc
+vdb-config --version  #用于在命令行界面中检查和显示已安装的NCBI SRA toolkit版本
 ~~~
 
 
