@@ -19,7 +19,14 @@ epihany
  source ~/.bashrc  #保存修改过后的bashrc文件
  ~~~
 
-
+## 下载NCBI SRA toolkit的方法
+~~~
+wget wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.0.2/sratoolkit.3.0.2-ubuntu64.tar.gz    #先下载安装包，上传到指定目录
+tar -xzf name      #转到该目录下，并进行解压
+cd dirtory         #转到解压后的目录
+PATH=/data/home/taoxy/bioapp//bin:$PATH   #添加到环境变量中去
+source ~/.bashrc        
+~~~
 
 
 
