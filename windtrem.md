@@ -29,7 +29,10 @@ source ~/.bashrc
 vdb-config --version  #用于在命令行界面中检查和显示已安装的NCBI SRA toolkit版本
 ~~~
 
+## 在服务器之间传输文件
+~~~
 
+~~~
 
 
 
