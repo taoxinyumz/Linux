@@ -19,3 +19,16 @@ while read ref_id; do
     echo "$name" >> protein_names.txt
 done < ref_ids.txt
 ~~~
+
+## 将csv文件格式转化为txt文件格式
+~~~
+awk -v FS="," -v OFS="/t" '{print $0}' SraRunTable.csv > Sra.txt   #print $0先打印，所以先后级顺序有些不一样
+sed 's/,/\t/g' SraRunTable.csv > Sra.txt    #替换作用，把,替换为\t
+~~~
+
+
+
+
+
+
+
