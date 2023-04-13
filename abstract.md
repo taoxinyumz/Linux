@@ -24,6 +24,7 @@ done < ref_ids.txt
 ~~~
 awk -v FS="," -v OFS="/t" '{print $0}' SraRunTable.csv > Sra.txt   #print $0先打印，所以先后级顺序有些不一样
 sed 's/,/\t/g' SraRunTable.csv > Sra.txt    #替换作用，把,替换为\t
+转换成为txt文件后通过命令行操作txt文件
 ~~~
 
 
