@@ -125,7 +125,8 @@ sudo pacman -S okular  #下载okular
 yay -S libreoffice-fresh-zh-cn  #下载office的指令
 ~~~
 
-
+## 安装和使用蓝牙
+https://blog.csdn.net/qq_36390239/article/details/123118489
 
 
 
