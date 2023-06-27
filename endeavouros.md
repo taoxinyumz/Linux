@@ -128,6 +128,15 @@ yay -S libreoffice-fresh-zh-cn  #下载office的指令
 ## 安装和使用蓝牙
 https://blog.csdn.net/qq_36390239/article/details/123118489
 
+## 安装向日葵
+~~~
+凤点头:
+yay -Rns sunloginclient
+yay -S sunloginclient
+sudo systemctl start runsunloginclient.service
+sudo systemctl enable runsunloginclient.service
+~~~
+
 
 
 
